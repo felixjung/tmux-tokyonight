@@ -36,6 +36,7 @@ tmux set-option -g message-style "bg=${PALETTE[red]},fg=${PALETTE[bg_dark]}"
 
 # status bar
 tmux set-option -g status-style "bg=${PALETTE[bg_highlight]},fg=${PALETTE[white]}"
+tmux set-option -g status-bg "${PALETTE[bg_highlight]}"
 
 # border color
 tmux set-option -g pane-active-border-style "$border_style_active_pane"
