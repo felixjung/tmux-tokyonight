@@ -7,7 +7,7 @@ CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=src/utils.sh
 . "$CURRENT_DIR/utils.sh"
 
-theme_variation=$(get_tmux_option "@theme_variation" "night")
+theme_variation=$(get_tmux_option "@theme_variation" "day")
 theme_enable_icons=$(get_tmux_option "@theme_variation" 1)
 
 # shellcheck source=src/palettes/night.sh
