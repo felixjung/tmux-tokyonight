@@ -3,8 +3,8 @@
 #Tokyo Night Moon Palette
 declare -A PALETTE=(
 	[none]="NONE"
-	[bg_dark]="#1e2030"
 	[bg]="#222436"
+	[bg_dark]="#1e2030"
 	[bg_highlight]="#2f334d"
 	[terminal_black]="#444a73"
 	[fg]="#c8d3f5"
@@ -22,8 +22,8 @@ declare -A PALETTE=(
 	[blue6]="#b4f9f8"
 	[blue7]="#394b70"
 	[purple]="#fca7ea"
-	[magenta2]="#ff007c"
 	[magenta]="#c099ff"
+	[magenta2]="#ff007c"
 	[orange]="#ff966c"
 	[yellow]="#ffc777"
 	[green]="#c3e88d"

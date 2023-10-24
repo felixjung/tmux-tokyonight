@@ -3,8 +3,8 @@
 #Tokyo Night Storm palette
 declare -A PALETTE=(
 	[none]="NONE"
-	[bg_dark]="#1f2335"
 	[bg]="#24283b"
+	[bg_dark]="#1f2335"
 	[bg_highlight]="#292e42"
 	[terminal_black]="#414868"
 	[fg]="#c0caf5"
@@ -21,9 +21,9 @@ declare -A PALETTE=(
 	[blue5]="#89ddff"
 	[blue6]="#b4f9f8"
 	[blue7]="#394b70"
+	[purple]="#9d7cd8"
 	[magenta]="#bb9af7"
 	[magenta2]="#ff007c"
-	[purple]="#9d7cd8"
 	[orange]="#ff9e64"
 	[yellow]="#e0af68"
 	[green]="#9ece6a"
