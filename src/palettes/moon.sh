@@ -10,6 +10,7 @@ declare -A PALETTE=(
 	[fg]="#c8d3f5"
 	[fg_dark]="#828bb8"
 	[fg_gutter]="#3b4261"
+	[fg_session]="#2f334d"
 	[dark3]="#545c7e"
 	[comment]="#7a88cf"
 	[dark5]="#737aa2"

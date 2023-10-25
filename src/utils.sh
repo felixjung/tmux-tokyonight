@@ -15,7 +15,7 @@ get_tmux_option() {
 function generate_left_side_string() {
 	local separator_end="#[bg=${PALETTE[bg_highlight]}]#{?client_prefix,#[fg=${PALETTE[yellow]}],#[fg=${PALETTE[green]}]}${left_separator:?}#[none]"
 
-	echo "#[fg=${PALETTE[fg_gutter]},bold]#{?client_prefix,#[bg=${PALETTE[yellow]}],#[bg=${PALETTE[green]}]} #S ${separator_end}"
+	echo "#[fg=${PALETTE[fg_session]},bold]#{?client_prefix,#[bg=${PALETTE[yellow]}],#[bg=${PALETTE[green]}]} #S ${separator_end}"
 }
 
 function generate_inactive_window_string() {
